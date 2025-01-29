@@ -23,6 +23,6 @@ resource "aws_instance" "dev" {
   key_name = "demo"
   availability_zone = "ap-south-1a"
   tags = {
-    Name = "Day-4"
+    Name = "Day-4.0"
   }
 }
