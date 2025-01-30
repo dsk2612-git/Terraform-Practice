@@ -1,9 +1,9 @@
 #creating s3 bucket and dynamo DB for state backend storgae and applying the lock mechanisam for statefile
 
-# resource "aws_s3_bucket" "example" {
-#   bucket = "dsk2612-pp"
+resource "aws_s3_bucket" "example" {
+  bucket = "dsk2612-ppq"
   
-# }
+}
 
 resource "aws_dynamodb_table" "dynamodb-terraform-state-lock" {
   name = "terraform-state-lock-dynamo"
